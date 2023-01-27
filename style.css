@@ -70,12 +70,12 @@ footer{
     padding-left: 10px;
 } */
 
- .fa-solid  {
+footer .fa-solid  {
     color: white;
     
 }
 
-.fa-dimension{
+footer .fa-dimension{
     font-size: 1.5em;
     
 }
@@ -94,6 +94,10 @@ b{
 
 .footer-items > div{
 text-align: center;
+}
+
+footer .fa-share-from-square{
+    color: green;
 }
 
  .end{
@@ -117,4 +121,42 @@ text-align: center;
 img{
     width: 100%;
     height: 100%;
+    
 }
+
+.img{
+    position: relative;
+}
+
+.img span{
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+    font-size: 12px;
+}
+
+.container{
+    position: relative;
+}
+
+.toggle{
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+   color: white;
+}
+
+.toggle span{
+    background-color: #4a4a4a;
+    margin-right: 5px;
+    padding: 2px;
+
+    border-radius: 2px;
+
+    font-size: 12px;
+}
+
